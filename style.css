@@ -1,0 +1,236 @@
+#container{
+    width: 970px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background: rgb(43, 79, 134);
+    padding: 5px 5px 5px 5px;
+    height: 130px;
+}
+
+#top_content{
+    background: rgb(43, 79, 134);
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: solid;
+    border-color: black;
+}
+
+#nav_bar{
+    background: linear-gradient(rgb(70, 115, 184),rgb(102, 146, 211),rgb(70, 115, 184));
+    height: 40px;
+    width: 850px;
+    padding-top: 12px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px;
+    margin: 0px 0px 0px 75px;
+}
+
+#nav_bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: arial, "sans serif";
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+#side_nav{
+    width: 245px; 
+    padding: 10px 5px 15px 20px;
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(255, 217, 0);
+    font-size: 19px;
+    line-height: 30px;
+}
+
+#side_nav ul li{
+    list-style-position: inside;
+}
+
+#side_nav a{
+    color: white;
+    font-family: arial, "sans serif";
+}
+
+#content{
+    width: 600px;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+}
+
+#content h3{
+    color: rgb(255, 217, 0);
+    font-style: italic;
+    font-family: arial, "sans serif";
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#content h4{
+    color: white;
+    font-family: arial, "sans serif";
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#content p{
+    color: white;
+    font-family: arial, "sans serif";
+    font-size: 15px;
+}
+
+#bottom_content{
+    text-align: center;
+}
+
+#bottom_content p{
+    margin: 0 auto;
+}
+
+footer{
+    background: linear-gradient(rgb(43, 79, 134),rgb(65, 115, 190),rgb(43, 79, 134));
+    text-align: center;
+    height: 45px;
+    color: rgb(109, 167, 253);
+    font-size: 10px;
+    font-family: arial, "sans serif";
+    padding-top: 75px;
+}
+
+.footer_link{
+    text-decoration: none;
+    color: rgb(109, 167, 253);
+    font-family: arial, "sans serif";
+    font-size: 16px;
+}
+
+footer p{
+padding-bottom: 20px;
+}
+
+footer a{
+padding: 0px 20px 0px 20px;
+}
+
+header img{
+   display: inline-block;
+   width: 375px;
+   padding-left: 10px;
+   padding-bottom: 0px;
+}
+
+#textsize{
+    display: inline-block;
+    padding: 10px 0px 5px 350px;
+    vertical-align: top;
+}
+
+#search_box{
+    display: inline-block;
+    padding: 0px 5px 25px 390px;
+    border-left: 400px;
+    position: relative;
+    top: -110px;
+}
+
+
+
+#textsize p{
+    display: inline-block;
+    font-family: arial, "sans serif";
+    font-size: 14px;
+    margin: 0;
+    color: white;
+}
+
+#textsize a{
+    font-size: 14px;
+    font-family: arial, "sans serif";
+    color: rgb(255, 217, 0)
+}
+
+#searchbar{
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px;
+    padding: 10px 0x 0x 40px;
+    background: rgb(80, 80, 80);
+    height: 60px;
+    width: 285px;
+    margin-left: 280px;
+}
+
+#searchinput{
+    display: inline-block;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgb(160, 156, 156) inset;
+    background: white;
+    height: 35px;
+    width: 170px;
+    color: rgb(199, 195, 195);
+    position: relative;
+    top: 13px;
+    left: 40px;
+}
+
+#searchinput p{
+    margin-top: 7px;
+    font-family: arial, "sans serif";
+    font-size: 12px;
+}
+
+#gobutton{
+display: inline-block;
+background: rgb(39, 83, 119);
+color: rgb(185, 200, 212);
+box-shadow: 1px 1px 1px 1px;
+border-radius: 3px;
+height: 25px;
+width: 40px;
+padding-top: 2px;
+margin-left: 3px;
+text-align: center;
+position: relative;
+top: 13px;
+left: 40px;
+}
+
+#gobutton p{
+    margin-top: 2px;
+    font-family: arial, "sans serif";
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+}
+
+.box_content{
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
+    border-top: solid;
+    border-color: rgb(35, 78, 143);
+    font-family: arial, "sans serif";
+    font-size: 14.5px;
+    margin: 0px 50px 0px 0px;
+}
+
+.box_content li{
+    color: rgb(35, 78, 143);
+}
+
+.box_content a{
+    color: rgb(35, 78, 143);
+    text-decoration: none;
+}
+
+.box_content h3{
+    margin: 3px 0px 0px 0px;
+}
+
+.box_content p{
+    margin: 5px 0px 0px 0px;
+}
